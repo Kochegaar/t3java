@@ -1,15 +1,15 @@
 public class T3java {
 
     public static void main(String[] args) {
-        int CASH = 100;
-        System.out.println((CASH) + " Начальная сумма");
-        int CASHINV = 1100;
-        System.out.println((CASHINV) + " Сумма пополнения");
+        int Cash = 100;
+        System.out.println((Cash) + " Начальная сумма");
+        int CashInv = 1100;
+        System.out.println((CashInv) + " Сумма пополнения");
 
 
-        int BONUS;
-        BONUS = CASHINV < 1000 ? CASHINV : CASHINV + (1 * CASHINV / 100);
-        int TOTLCASH;
-        System.out.println(CASH + BONUS + " Общая сумма");
+        int Bonus;
+        Bonus = CashInv < 1000 ? CashInv : CashInv + (1 * CashInv / 100);
+        int TotalCash;
+        System.out.println(Cash + Bonus + " Общая сумма");
     }
 }
